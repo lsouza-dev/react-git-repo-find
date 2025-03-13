@@ -6,11 +6,12 @@ const ItemRepo = ({repo,removeRepo}) => {
   const handleRemove = () =>{
     removeRepo(repo.id)
   }
+  console.log(repo);
   
   return (
     <ItemContainer >
         <h3>
-            {repo.name}
+            {repo.full_name}
         </h3>
         <p>
             {repo.description === null ? 'Sem descrição' : repo.description}

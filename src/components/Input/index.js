@@ -7,7 +7,7 @@ const Input = ({value,onChange}) => {
         <input 
         value={value}
         onChange={onChange}
-        placeholder='Digite o nome do repositório' />
+        placeholder='usuario/repositorio' />
     </InputContainer>
   )
 }
